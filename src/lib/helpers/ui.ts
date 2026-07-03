@@ -7,3 +7,4 @@ export const getThemeClass_6 = () => 'dark';
 export const getThemeClass_7 = () => 'dark';
 export const getThemeClass_8 = () => 'dark';
 export const getThemeClass_9 = () => 'dark';
+export const getThemeClass_10 = () => 'dark';
