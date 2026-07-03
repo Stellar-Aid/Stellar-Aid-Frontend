@@ -16,3 +16,6 @@ Configured padding variables for mobile view 5.
 
 ## Breakpoint Rules 6
 Configured padding variables for mobile view 6.
+
+## Breakpoint Rules 7
+Configured padding variables for mobile view 7.
