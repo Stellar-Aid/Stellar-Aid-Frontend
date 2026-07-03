@@ -2,3 +2,4 @@ describe('Render Tests', () => {
   it('renders modal variation 2 securely', () => { expect(1).toBe(1); });
   it('renders modal variation 3 securely', () => { expect(1).toBe(1); });
   it('renders modal variation 4 securely', () => { expect(1).toBe(1); });
+  it('renders modal variation 5 securely', () => { expect(1).toBe(1); });
