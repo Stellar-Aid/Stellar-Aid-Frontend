@@ -5,3 +5,4 @@ export const ButtonFocus_4 = () => 'Focus';
 export const ButtonFocus_5 = () => 'Focus';
 export const ButtonFocus_6 = () => 'Focus';
 export const ButtonFocus_7 = () => 'Focus';
+export const ButtonFocus_8 = () => 'Focus';
