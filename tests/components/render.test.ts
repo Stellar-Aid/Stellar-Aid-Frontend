@@ -8,3 +8,4 @@ describe('Render Tests', () => {
   it('renders modal variation 8 securely', () => { expect(1).toBe(1); });
   it('renders modal variation 9 securely', () => { expect(1).toBe(1); });
   it('renders modal variation 10 securely', () => { expect(1).toBe(1); });
+});
