@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 99%;
+    --foreground: 0 0% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 4%;
+
+    --primary: 212 68% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 10% 96%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 40 10% 96%;
+    --muted-foreground: 40 3% 45%;
+
+    --accent: 40 10% 94%;
+    --accent-foreground: 0 0% 12%;
+
+    --destructive: 0 63% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 120 88% 34%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 41 96% 54%;
+    --warning-foreground: 0 0% 12%;
+
+    --border: 45 15% 87%;
+    --input: 45 15% 87%;
+    --ring: 212 68% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 100%;
+
+    --card: 60 2% 10%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 60 2% 10%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 212 78% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 60 2% 15%;
+    --secondary-foreground: 0 0% 96%;
+
+    --muted: 60 2% 15%;
+    --muted-foreground: 45 6% 65%;
+
+    --accent: 60 2% 18%;
+    --accent-foreground: 0 0% 96%;
+
+    --destructive: 0 61% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 120 86% 34%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 41 96% 54%;
+    --warning-foreground: 0 0% 12%;
+
+    --border: 60 2% 18%;
+    --input: 60 2% 18%;
+    --ring: 212 78% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+}
