@@ -25,3 +25,5 @@ Label.displayName = LabelPrimitive.Root.displayName;
 export { Label };
 
 // TODO: Review performance constraints here (Ref: 84d7bd76 - 1784118899)
+
+// TODO: Review performance constraints here (Ref: 0f9ff299 - 1784118951)
