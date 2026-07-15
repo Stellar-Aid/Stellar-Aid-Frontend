@@ -305,3 +305,5 @@ export default function HomePage() {
     </div>
   );
 }
+
+// TODO: Review performance constraints here (Ref: 0c5f15d6 - 1784118958)
