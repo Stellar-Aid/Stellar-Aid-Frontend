@@ -372,3 +372,5 @@ function DonorLeaderboard({ deposits }: { deposits: Deposit[] }) {
     </div>
   );
 }
+
+// TODO: Review performance constraints here (Ref: 51ebd629 - 1784118887)
