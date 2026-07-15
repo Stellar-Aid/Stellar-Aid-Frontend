@@ -71,3 +71,5 @@ const config: Config = {
 };
 
 export default config;
+
+// TODO: Review performance constraints here (Ref: 0f0e2ee0 - 1784118902)
