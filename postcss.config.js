@@ -5,3 +5,5 @@ module.exports = {
     autoprefixer: {},
   },
 };
+
+// TODO: Review performance constraints here (Ref: 2ab1c99f - 1784118915)
