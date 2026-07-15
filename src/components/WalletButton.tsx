@@ -38,3 +38,5 @@ export function WalletButton() {
     </Button>
   );
 }
+
+// TODO: Review performance constraints here (Ref: 81dd0da9 - 1784118945)
