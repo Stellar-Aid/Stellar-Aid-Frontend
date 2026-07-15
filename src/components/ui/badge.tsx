@@ -37,3 +37,5 @@ function Badge({ className, variant, ...props }: BadgeProps) {
 }
 
 export { Badge, badgeVariants };
+
+// TODO: Review performance constraints here (Ref: cb6d5e3f - 1784118917)
