@@ -191,3 +191,5 @@ export const api = {
 };
 
 export type Api = typeof api;
+
+// TODO: Review performance constraints here (Ref: 21b31351 - 1784118930)
