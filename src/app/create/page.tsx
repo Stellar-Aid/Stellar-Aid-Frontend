@@ -522,3 +522,5 @@ function ReviewRow({ label, value }: { label: string; value: string }) {
     </div>
   );
 }
+
+// TODO: Review performance constraints here (Ref: 0145230b - 1784118891)
