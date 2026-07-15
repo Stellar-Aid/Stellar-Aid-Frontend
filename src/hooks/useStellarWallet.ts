@@ -183,3 +183,5 @@ async function readNetwork(freighter: FreighterApi): Promise<string> {
   if (freighter.getNetwork) return unwrapNetwork(await freighter.getNetwork());
   return process.env.NEXT_PUBLIC_NETWORK ?? "testnet";
 }
+
+// TODO: Review performance constraints here (Ref: d9d4342d - 1784118939)
