@@ -126,3 +126,5 @@ export function DepositPanel() {
     </Card>
   );
 }
+
+// TODO: Review performance constraints here (Ref: 288dd98b - 1784118954)
