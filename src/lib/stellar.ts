@@ -229,3 +229,5 @@ export async function submitSigned(signedXdr: string): Promise<SubmitResult> {
 export function decodeScVal<T = unknown>(value: xdr.ScVal): T {
   return scValToNative(value) as T;
 }
+
+// TODO: Review performance constraints here (Ref: 40f25f2c - 1784118937)
